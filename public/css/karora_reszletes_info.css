@@ -1,0 +1,47 @@
+table {
+    font-size: large;
+}
+
+.carousel-indicators button {
+    border: 2px solid black !important;
+    opacity: 1 !important;
+    transition: background-color 0.5s !important;
+}
+
+.carousel-indicators button.active {
+    background-color: red;
+}
+
+.karoraKepNemCarousel {
+    max-width: 400px;
+}
+
+#karoraNev {
+    max-width: 450px;
+}
+
+#caruoselJellemzokTermekcsaladLeiras {
+    min-height: 80vh;
+    margin: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#karoraNev {
+    font-size: 1.8em;
+}
+
+#karoraGyartoNev {
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+#karoraCarousel {
+    width: 400px;
+    height: auto;
+}
+
+#termekcsaladNevEsInfo {
+    max-width: 15vw;
+}

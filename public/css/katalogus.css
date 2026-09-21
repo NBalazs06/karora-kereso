@@ -1,0 +1,59 @@
+.szuro-csoport {
+  margin-bottom: 1em;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #333;
+}
+
+.szuro-csoport summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  color: #fff;
+  background-color: #000;
+  position: relative;
+}
+
+.szuro-csoport summary::-webkit-details-marker {
+  display: none;
+}
+
+.szuro-csoport summary::after {
+  position: absolute;
+  right: 1em;
+  transition: transform 0.3s ease;
+}
+
+.szuro-csoport[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.szuro-opciok {
+  margin-top: 0.5em;
+  padding: 0.5em 1em;
+  background: rgb(20, 20, 20);
+  color: white;
+}
+
+.meret_number {
+  max-width: 4em;
+}
+
+.egy_tulajdonsaghoz_tartozo_szurok_torlese_gomb {
+  margin-top: 16px;
+}
+
+.katalogusAdatokTable tr td {
+    padding: 16px;
+}
+
+#katalogus {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr;
+}
+
+#nev_szuro_torlese_gomb {
+  margin: 0px;
+}
